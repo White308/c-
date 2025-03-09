@@ -16,7 +16,7 @@ string findDayOfWeek(int month, int day) {
     int h = (day + 13 * (month + 1) / 5 + K + (K/4) + (J / 4) + (5 * J)) % 7;
 
 
-    string days[] = {"Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"};
+    string days[] = {"Altynjy gun","Oduh","birinji gun","ikinji gun","ucunji gun","dordunji gun","basinji gun"};
 
     return days[h];
 
@@ -24,7 +24,7 @@ string findDayOfWeek(int month, int day) {
 
 int main() {
     int month, day;
-    cout << "Enter month and day";
+    cout << "Ayy we guni giriz";
     cin >> month >> day;
 
     string result = findDayOfWeek(month, day);
